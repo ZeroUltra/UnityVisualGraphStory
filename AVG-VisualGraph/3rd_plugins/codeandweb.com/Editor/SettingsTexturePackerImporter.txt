@@ -1,0 +1,72 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/StoryWork/Icon/jqtx.tpsheet
+- Assets/StoryWork/story/chapter 1/01/ani-010101/ani-010101.tpsheet
+- Assets/StoryWork/story/chapter 1/01/ani-010102/ani-010102.tpsheet
+- Assets/StoryWork/story/chapter 1/01/cg-010101/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/02/ani-010201/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/02/ani-010202/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/02/intro-jf/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/03/hd-010302/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/04/ani-010401/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/04/ani-010402/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/04/ani-010403/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/05/ani-010501/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/08/ani-010801/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/09/ani-010901/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/09/hd-010901/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/10/ani-011001/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/side story/01/zani-010102/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/side story/01/zani-010103/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/side story/02/zani-010201/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/side story/02/zani-010202/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/side story/03/zani-010301/texture.tpsheet
+- Assets/StoryWork/story/chapter 1/side story/03/zani-010302/texture.tpsheet
+textureFileNames:
+- Assets/StoryWork/Icon/jqtx.png
+- Assets/StoryWork/story/chapter 1/01/ani-010101/ani-010101.png
+- Assets/StoryWork/story/chapter 1/01/ani-010102/ani-010102.png
+- Assets/StoryWork/story/chapter 1/01/cg-010101/texture.png
+- Assets/StoryWork/story/chapter 1/02/ani-010201/texture.png
+- Assets/StoryWork/story/chapter 1/02/ani-010202/texture.png
+- Assets/StoryWork/story/chapter 1/02/intro-jf/texture.png
+- Assets/StoryWork/story/chapter 1/03/hd-010302/texture.png
+- Assets/StoryWork/story/chapter 1/04/ani-010401/texture.png
+- Assets/StoryWork/story/chapter 1/04/ani-010402/texture.png
+- Assets/StoryWork/story/chapter 1/04/ani-010403/texture.png
+- Assets/StoryWork/story/chapter 1/05/ani-010501/texture.png
+- Assets/StoryWork/story/chapter 1/08/ani-010801/texture.png
+- Assets/StoryWork/story/chapter 1/09/ani-010901/texture.png
+- Assets/StoryWork/story/chapter 1/09/hd-010901/texture.png
+- Assets/StoryWork/story/chapter 1/10/ani-011001/texture.png
+- Assets/StoryWork/story/chapter 1/side story/01/zani-010102/texture.png
+- Assets/StoryWork/story/chapter 1/side story/01/zani-010103/texture.png
+- Assets/StoryWork/story/chapter 1/side story/02/zani-010201/texture.png
+- Assets/StoryWork/story/chapter 1/side story/02/zani-010202/texture.png
+- Assets/StoryWork/story/chapter 1/side story/03/zani-010301/texture.png
+- Assets/StoryWork/story/chapter 1/side story/03/zani-010302/texture.png
+normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

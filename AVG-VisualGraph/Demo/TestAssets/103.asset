@@ -1,0 +1,2351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9083400245248870891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: a046c9fd-5176-45e5-8d0d-ce599597a7c8
+  editor_ActiveNode: 0
+  position: {x: 4240, y: 925}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 12cf5320-04f1-4f02-9db8-650df9f3c3bb
+        Connections:
+        - node_guid: 323e47b3-b139-4b60-94a2-6b4e58c08e71
+          port_guid: f27895e7-4c99-4dd7-89d7-6c98d1f5dd99
+        - node_guid: 8c7cd837-fe3f-4c07-8c01-ab251ae31896
+          port_guid: 0b2d01a4-5590-44ba-b3e9-f8b646226efe
+        - node_guid: 469d6ab4-7e3a-4f66-bd9e-606aca607ac9
+          port_guid: 7ccf606a-e9f3-430c-955f-09454e6f44c0
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: cea18882-1901-40a0-ad6a-a4c7116b0819
+        Connections: []
+--- !u!114 &-8856880476895257625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30588af5db46a814f83ef09e79f504de, type: 3}
+  m_Name: Node_BG
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 587c08d6-6c03-47c3-b5e2-0c89fdee145a
+  editor_ActiveNode: 0
+  position: {x: 154, y: 63.440002}
+  spBgName: bg-office
+  fXType: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: d384a62b-e7ba-46ad-8810-3309be74e63b
+        Connections:
+        - node_guid: 40b96ff5-1e2c-41aa-9c94-c4bc4b7c4ac9
+          port_guid: f20e2ebe-b3e8-4f15-83df-95803595fdb2
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: a28af843-55c2-47ed-b090-3f04b312c11f
+        Connections:
+        - node_guid: 4500f429-823f-4dd2-bfba-309770b2b2e0
+          port_guid: 4b09d427-be0a-4cb7-ac67-f349e88bf25e
+--- !u!114 &-8785059145767178668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 8982f1ec-c989-4c01-b59f-484c697e52c5
+  editor_ActiveNode: 0
+  position: {x: 1181, y: 1039}
+  msg: "\u602A\u4E0D\u5F97\u90FD\u8BF4\u4EBA\u624D\u662F\u7B2C\u4E00\u751F\u4EA7\u529B\uFF0C\u8FD9\u79CD\u65F6\u5019\u8981\u662F\u6709\u4E13\u4E1A\u4EBA\u58EB\u5E2E\u5FD9\u5C31\u597D\u4E86\u3002"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 6d0cbd0d-f5d5-4e4d-8903-f7a8f7e87856
+        Connections:
+        - node_guid: b84fa5a6-3001-43d5-ba99-e02560029507
+          port_guid: b6aaf174-3690-4376-a7a5-2d41926f5030
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: efdda7ed-fabc-41a2-9665-e839ffcca6a8
+        Connections:
+        - node_guid: c8133a75-3fa5-46c9-9d38-43724e3729b5
+          port_guid: 7d392e0c-a7d5-4454-89dd-2702d31bad69
+--- !u!114 &-7872312588204861061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 3e2c3ea4-77e2-42fa-bc60-6dac54b5089c
+  editor_ActiveNode: 0
+  position: {x: 1209, y: 30.93504}
+  msg: "\u201C\u9E1F\u7FBD\u7EB9\u662F\u826F\u6E1A\u6587\u5316\u8003\u53E4\u4E2D\u6240\u53D1\u73B0\u5668\u7269\u4E0A\u7684\u4E00\u79CD\u88C5\u9970\u7EB9\u6837\uFF0C\u5176\u5E7F\u6CDB\u5206\u5E03\u4E8E\u826F\u6E1A\u6587\u5316\u9057\u5740\u4E2D\u2026\u2026\u201D"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: e5dd0d04-0862-4bfa-9fe7-5c8ae72626a5
+        Connections:
+        - node_guid: b1e02749-83d3-4023-ade2-5397e486c643
+          port_guid: 50f1c196-e2ad-4a9e-aef0-06a1b415d781
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: aace3c56-11b6-4cba-a13e-5fb3497d29a2
+        Connections:
+        - node_guid: b6a8ecb6-9f39-4f17-ab6f-a58b38ccc156
+          port_guid: d7800886-10ae-4a88-b22b-ac52103121c5
+--- !u!114 &-7176492148131623587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a20baa31b6f6384eb4d1c45354bd7fa, type: 3}
+  m_Name: Node_Interact
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: ba0ebe89-34bc-4a2d-963a-4bb999fb9cc0
+  editor_ActiveNode: 0
+  position: {x: 1645, y: 289}
+  interactName: hd-010302
+  isAutoDestory: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 688d1377-c5ba-4919-b511-55eaecc00fd2
+        Connections:
+        - node_guid: a7815162-2ef6-488e-b771-d43379b3b7d4
+          port_guid: 72a7a8fc-d773-48ca-bc9c-3bda346cf809
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 73c41c3d-9a97-4207-b3d7-488963edbbac
+        Connections:
+        - node_guid: 931e862c-e3df-40c0-8235-6d54d773e0a8
+          port_guid: 31dc1aee-d11f-4516-82cd-2ce04bc127cf
+--- !u!114 &-7137198223928807986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7080c502fdcc4c24dbb9806706456b52, type: 3}
+  m_Name: Node_Menu Result
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  internal_guid: a17db0b5-6eca-4950-913b-049f2dbaf045
+  editor_ActiveNode: 0
+  position: {x: 2840, y: 846.0001}
+  targetMenuID: 100
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: f7d0691c-8c3b-415f-ae43-085bb9269c2c
+        Connections:
+        - node_guid: ff7c35bc-c3a1-4f30-b96a-1ea6667f4f05
+          port_guid: f1fc26b5-3c1c-4397-be4b-e899173ce5c5
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: "\u70AD\u7131\u9E21\u516C\u7172"
+        Direction: 1
+        CanBeRemoved: 0
+        guid: b36fdcf2-b834-43e1-9aeb-dccc6aa89409
+        Connections:
+        - node_guid: f6627f24-6f8b-4c70-abd8-b3ed46c181aa
+          port_guid: 0afa885c-3b84-4a80-b2dc-2138b75995ac
+    00000002:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: "\u756A\u8304\u725B\u8089\u9762"
+        Direction: 1
+        CanBeRemoved: 0
+        guid: e8fe4161-b48d-4dff-8e7f-0ef673d685ab
+        Connections:
+        - node_guid: 0d1bc352-92cf-46e6-ba41-f09892f008c9
+          port_guid: f37be6ce-58dc-4c0b-87a9-5ab1ed0bb3ec
+    00000003:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: "\u53C9\u70E7\u6ED1\u86CB\u996D"
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 6603bf78-9dc8-4261-8748-35cdedca763c
+        Connections:
+        - node_guid: 62cf8c96-d977-434b-beb3-f9f88557bedd
+          port_guid: e25b21c8-5ca9-45ab-8c5e-bc31f04d400f
+--- !u!114 &-6855754992936658971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: f33ec029-4e19-41f9-8425-e538ad5d9565
+  editor_ActiveNode: 0
+  position: {x: 2825, y: 437}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 08a5c875-7ea0-4c7e-a2b3-54f983f74a16
+        Connections:
+        - node_guid: f17cd0d2-ad7d-4c53-b5d1-a27e529807ff
+          port_guid: 7e94da53-552b-4b00-866a-c3b86b5a13d8
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 5bd1f1b2-54ff-425e-a9d4-02f74aa30c41
+        Connections:
+        - node_guid: ff7c35bc-c3a1-4f30-b96a-1ea6667f4f05
+          port_guid: 8084c151-e5eb-4be5-8171-4120ed703dce
+--- !u!114 &-6450420362038467038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 8409071c-3f1a-4eb5-9a7d-97eaed9c42c1
+  editor_ActiveNode: 0
+  position: {x: 2540, y: 650}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 882f06fd-558d-4bdf-b1c1-08e96bf3eb01
+        Connections:
+        - node_guid: 7cdda208-5dc9-4e2a-8508-f01e3ad655a0
+          port_guid: a7d11c14-3422-425d-affb-d8d5a5b6532a
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 1fc84142-28ac-4ce5-9010-494e04c7043d
+        Connections:
+        - node_guid: 88b655dc-eff7-4090-ba3e-08401dfeea72
+          port_guid: fd25f630-4fb0-469a-94d1-1089f02efb8b
+--- !u!114 &-6384325275396235406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 366bd666-8f82-41ce-83d3-bd42786d2b0f
+  editor_ActiveNode: 0
+  position: {x: 1951, y: 897}
+  msg: "\u2014\u2014\u770B\u770B\uFF0C\u8FD9\u624D\u662F\u6B63\u5E38\u7684\u62DB\u8058\u516C\u6587\u3002"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 24b61b44-a79a-43fd-8baa-eef9c9858d67
+        Connections:
+        - node_guid: 53513497-e662-4cf9-8b55-eb1341d345b4
+          port_guid: a973db1b-8598-4afb-92ae-e86e386eae59
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 8bec408c-ebcb-4893-9343-80aa65b09b53
+        Connections:
+        - node_guid: 01c343d5-22a8-4cd5-b76c-a5f432a6c05b
+          port_guid: 5871c737-4682-4d2e-8a72-edba674e0c67
+--- !u!114 &-5769871916932554149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 55c6dd76-fffa-4c46-8a27-ebed05d47f75
+  editor_ActiveNode: 0
+  position: {x: 3489, y: 678}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: a3d5e5d8-a562-4fd4-9f13-c31c221aac09
+        Connections:
+        - node_guid: f6627f24-6f8b-4c70-abd8-b3ed46c181aa
+          port_guid: 0a7e0e58-8a79-4ddf-a7d0-041496ec7042
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: af5bf862-7678-4d4b-9f0c-e29b335fbec9
+        Connections:
+        - node_guid: 323e47b3-b139-4b60-94a2-6b4e58c08e71
+          port_guid: 1dcd994b-8b98-4384-af6b-872d34af8f41
+--- !u!114 &-5301116762308633649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c184e9d36e163c54880d3ff9ec04255d, type: 3}
+  m_Name: Node_Menu
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  internal_guid: aa297d5e-7e7b-41ff-a646-7fd6af69005d
+  editor_ActiveNode: 0
+  position: {x: 455, y: 598.5}
+  menuID: 100
+  options:
+  - "\u70AD\u7131\u9E21\u516C\u7172"
+  - "\u756A\u8304\u725B\u8089\u9762"
+  - "\u53C9\u70E7\u6ED1\u86CB\u996D"
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 38033f2d-7360-4e04-bb04-332253d78cae
+        Connections:
+        - node_guid: 2f5d78dc-b3bb-4e39-97e8-7efc0af1afb3
+          port_guid: ea517814-25cb-44ee-b7b3-169d3a57b604
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: "\u9009\u98791"
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 25cdc010-2473-43d1-98f8-bb6b4b88e093
+        Connections:
+        - node_guid: 6b2d037e-bd1c-41e4-bd89-ca0c5ca0f11c
+          port_guid: a47b8c5a-11cb-4779-b479-810aa6fc5035
+        - node_guid: 6b2d037e-bd1c-41e4-bd89-ca0c5ca0f11c
+          port_guid: a47b8c5a-11cb-4779-b479-810aa6fc5035
+    00000002:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: "\u9009\u98792"
+        Direction: 1
+        CanBeRemoved: 0
+        guid: dcd4efa9-b75b-4235-81be-dfe8fdb22ae7
+        Connections:
+        - node_guid: 6b2d037e-bd1c-41e4-bd89-ca0c5ca0f11c
+          port_guid: a47b8c5a-11cb-4779-b479-810aa6fc5035
+    00000003:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: "\u9009\u98793"
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 3a179610-8cb4-44e4-91f4-52303e153c1e
+        Connections:
+        - node_guid: 6b2d037e-bd1c-41e4-bd89-ca0c5ca0f11c
+          port_guid: a47b8c5a-11cb-4779-b479-810aa6fc5035
+--- !u!114 &-4633748509075586558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8478cc79f55c1fa4f93e3d85198f469a, type: 3}
+  m_Name: Node_Say Other
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: f17cd0d2-ad7d-4c53-b5d1-a27e529807ff
+  editor_ActiveNode: 0
+  position: {x: 2816, y: 139}
+  msg: "\u597D\u7684\uFF0C\u8BB0\u5F97\u4E94\u661F\u597D\u8BC4\uFF0C\u8C22\u8C22\u3002"
+  msgAudio: {fileID: 0}
+  roleName: "\u5916\u5356\u5C0F\u54E5"
+  showIcon: 0
+  spName: 
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: dd5f6b3d-b68b-49ed-aa81-a0e363374fed
+        Connections:
+        - node_guid: b80cbaad-7929-4aa9-a6ba-e8a38becac77
+          port_guid: 8f7d63f2-11bb-465f-a664-cd154af10fec
+        - node_guid: b80cbaad-7929-4aa9-a6ba-e8a38becac77
+          port_guid: 8f7d63f2-11bb-465f-a664-cd154af10fec
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 7e94da53-552b-4b00-866a-c3b86b5a13d8
+        Connections:
+        - node_guid: f33ec029-4e19-41f9-8425-e538ad5d9565
+          port_guid: 08a5c875-7ea0-4c7e-a2b3-54f983f74a16
+--- !u!114 &-4622409456048755537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: b84fa5a6-3001-43d5-ba99-e02560029507
+  editor_ActiveNode: 0
+  position: {x: 1181.0425, y: 803.00006}
+  Datas:
+  - msg: "\u6216\u8BB8\u56E0\u4E3A\u77F3\u5934\u672C\u8EAB\u635F\u6BC1\u4E25\u91CD\u7684\u5173\u7CFB\uFF0C\u773C\u524D\u77F3\u5934\u4E0A\u7684\u82B1\u7EB9\u4E0E\u8D44\u6599\u4E2D\u7684\u9E1F\u7FBD\u7EB9\u867D\u7136\u6709\u8BF8\u591A\u76F8\u4F3C\uFF0C\u600E\u4E48\u770B\u90FD\u7F3A\u5C11\u4E86\u4E00\u4E9B\u80FD\u591F\u6491\u8D77\u6574\u4E2A\u56FE\u6848\u7684\u5173\u952E\u7EB9\u8DEF\u3002"
+    msgAudio: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 87d9a277-7c87-44dc-a25a-e543429e81f5
+        Connections:
+        - node_guid: b6a8ecb6-9f39-4f17-ab6f-a58b38ccc156
+          port_guid: 129d2d66-e237-401a-bcb0-723094081085
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: b6aaf174-3690-4376-a7a5-2d41926f5030
+        Connections:
+        - node_guid: 8982f1ec-c989-4c01-b59f-484c697e52c5
+          port_guid: 6d0cbd0d-f5d5-4e4d-8903-f7a8f7e87856
+--- !u!114 &-3553434038136023969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 21f13d78-3f61-4bf7-9a8b-c681a21296a2
+  editor_ActiveNode: 0
+  position: {x: 1950.5825, y: 91.99998}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 8b87b6b7-a6e8-48d1-8a80-f04f2ae89a81
+        Connections:
+        - node_guid: 769ff32a-5781-4ec8-8fa1-36d62b0edf50
+          port_guid: e6d6d448-5dc2-45a3-8f22-24c3ff5c4647
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 17686827-a5c5-44bb-a5a8-2c32b30978fb
+        Connections:
+        - node_guid: 66eeea94-05a4-404a-8dcc-beabc9dd8b88
+          port_guid: 587c91c3-a109-40e6-bc3d-04564364b648
+--- !u!114 &-3277773380755853205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa59f98605fbb014ea4e997ad912d6ed, type: 3}
+  m_Name: Node_Soude Stop
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: a7815162-2ef6-488e-b771-d43379b3b7d4
+  editor_ActiveNode: 0
+  position: {x: 1636, y: 91}
+  soundType: 1
+  soundName: bgm-museumquite
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: f03039ee-4153-4c70-8c35-0cbf68fa640b
+        Connections:
+        - node_guid: c8133a75-3fa5-46c9-9d38-43724e3729b5
+          port_guid: 270af349-65f9-4c1f-a8e2-b94e2f863bb1
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 72a7a8fc-d773-48ca-bc9c-3bda346cf809
+        Connections:
+        - node_guid: ba0ebe89-34bc-4a2d-963a-4bb999fb9cc0
+          port_guid: 688d1377-c5ba-4919-b511-55eaecc00fd2
+--- !u!114 &-2829321075039229487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 769ff32a-5781-4ec8-8fa1-36d62b0edf50
+  editor_ActiveNode: 0
+  position: {x: 1655, y: 1578.295}
+  msg: "\u62DC\u6258\uFF0C\u8FD9\u79CD\u5F00\u5934\u80FD\u62DB\u5230\u4EBA\u5C31\u89C1\u9B3C\u4E86\u5427\u2026\u2026"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: adbd2cc3-0d25-49d6-a0ca-194a94e36d68
+        Connections:
+        - node_guid: 7ea9bbe1-8826-4c4d-a65c-062f0236f764
+          port_guid: 7e2546c4-1031-4f99-8906-ba0485fbc333
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: e6d6d448-5dc2-45a3-8f22-24c3ff5c4647
+        Connections:
+        - node_guid: 21f13d78-3f61-4bf7-9a8b-c681a21296a2
+          port_guid: 8b87b6b7-a6e8-48d1-8a80-f04f2ae89a81
+--- !u!114 &-2826943250019860815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 3ec18503-3808-4efb-b886-344aa154bd8c
+  editor_ActiveNode: 0
+  position: {x: 2235, y: 105}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 6ba90fa7-184d-42ac-81c9-95b0f26278dc
+        Connections:
+        - node_guid: 01c343d5-22a8-4cd5-b76c-a5f432a6c05b
+          port_guid: 3387bccc-9c43-47ae-ab40-197cdbe6b12f
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 0609afb6-d906-45ca-9a30-fb9b6f4846a5
+        Connections:
+        - node_guid: 171928ce-d55b-42af-ae67-750a914608ca
+          port_guid: b23594ee-1f1d-4169-b0bc-90d91d4dbef3
+--- !u!114 &-2593438943599311053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b15823ee6aa90b4c931675f8df29c3e, type: 3}
+  m_Name: Node_Anima Show
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 0d1bc352-92cf-46e6-ba41-f09892f008c9
+  editor_ActiveNode: 0
+  position: {x: 3198.0005, y: 895.6501}
+  animaType: 1
+  animaName: ani-010302
+  autoDestory: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: f37be6ce-58dc-4c0b-87a9-5ab1ed0bb3ec
+        Connections:
+        - node_guid: a17db0b5-6eca-4950-913b-049f2dbaf045
+          port_guid: e8fe4161-b48d-4dff-8e7f-0ef673d685ab
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 6e0e303d-2bc6-4a79-890c-aa3c8d55db40
+        Connections:
+        - node_guid: 54d840dd-8008-4bd6-8257-67014ec26ed6
+          port_guid: 579d892b-28eb-4eaf-b730-9b4672af51e5
+--- !u!114 &-2269904055606469694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b15823ee6aa90b4c931675f8df29c3e, type: 3}
+  m_Name: Node_Anima Show
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 2f5d78dc-b3bb-4e39-97e8-7efc0af1afb3
+  editor_ActiveNode: 0
+  position: {x: -11.940361, y: 1121}
+  animaType: 1
+  animaName: ani-010304
+  autoDestory: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: cb1a6bef-2d4b-45d3-9c30-39c1325fe2e0
+        Connections:
+        - node_guid: ff258d50-d89d-47a3-b939-5a2a98199bd7
+          port_guid: 891a12d5-625a-467e-af27-386e23683ec3
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: ea517814-25cb-44ee-b7b3-169d3a57b604
+        Connections:
+        - node_guid: aa297d5e-7e7b-41ff-a646-7fd6af69005d
+          port_guid: 38033f2d-7360-4e04-bb04-332253d78cae
+--- !u!114 &-1863984635592965550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 53513497-e662-4cf9-8b55-eb1341d345b4
+  editor_ActiveNode: 0
+  position: {x: 1951, y: 527}
+  msg: "\u201C\u672C\u9986\u8BDA\u8058xxx\u804C\u4F4Dx\u540D\uFF0C\u5F85\u9047\u4ECE\u4F18\uFF0C\u793E\u4FDD\u9F50\u5168\uFF0C\u6807\u51C6\u5DE5\u65F6\u2026\u2026\u201D"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 13d44376-ee29-486b-a7d2-9e58803eecb5
+        Connections:
+        - node_guid: 66eeea94-05a4-404a-8dcc-beabc9dd8b88
+          port_guid: 6821cd55-a70b-4668-ae3e-246e986606fb
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: a973db1b-8598-4afb-92ae-e86e386eae59
+        Connections:
+        - node_guid: 366bd666-8f82-41ce-83d3-bd42786d2b0f
+          port_guid: 24b61b44-a79a-43fd-8baa-eef9c9858d67
+--- !u!114 &-1625064636974916795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: bf88c36f-8c61-4f42-9594-06a74312acfd
+  editor_ActiveNode: 0
+  position: {x: 2256, y: 923.00006}
+  msg: "\u554A\uFF0C\u5916\u5356\u5230\u4E86\uFF01"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 2328a461-daf1-4517-9513-3e527139dcf6
+        Connections:
+        - node_guid: 8b74e2f8-658b-4e7e-b812-497a46c13ec9
+          port_guid: 4a4c4bd8-0a6b-42de-a92f-b9ef70afa6f9
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 5d98494c-eb26-4174-8f7d-5fb65ebaf41c
+        Connections:
+        - node_guid: fa3fdf03-26de-4e7f-9b2e-f17de77065f1
+          port_guid: 3f4682e6-73d9-4b83-828b-3fa614149831
+--- !u!114 &-1009653342042075824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: b1e02749-83d3-4023-ade2-5397e486c643
+  editor_ActiveNode: 0
+  position: {x: 829.26, y: 478.00006}
+  Datas:
+  - msg: "\u70B9\u5B8C\u5916\u5356\uFF0C\u7EC8\u4E8E\u53EF\u4EE5\u5B89\u5FC3\u5DE5\u4F5C\u4E86\u3002"
+    msgAudio: {fileID: 0}
+  - msg: "\u4E66\u67B6\u4E0A\u5806\u6EE1\u4E86\u5404\u79CD\u8003\u53E4\u76F8\u5173\u7684\u8D44\u6599\u548C\u4E66\u7C4D\uFF0C\u6709\u51E0\u672C\u6807\u6CE8\u7740\u826F\u6E1A\u5B57\u6837\u7684\u6587\u4EF6\u5939\u88AB\u653E\u5728\u6700\u5E95\u5C42\u7684\u4F4D\u7F6E\uFF0C\u91CC\u9762\u7684\u6587\u4EF6\u98A0\u4E09\u5012\u56DB\uFF0C\u4E00\u770B\u5C31\u662F\u6CA1\u6765\u5F97\u53CA\u6574\u7406\u7684\u3002"
+    msgAudio: {fileID: 0}
+  - msg: "\u542C\u95FB\u524D\u4EFB\u9986\u957F\u5306\u5306\u79BB\u804C\uFF0C\u4E00\u5EA6\u4EE4\u8FD9\u91CC\u7684\u79E9\u5E8F\u9677\u5165\u6DF7\u4E71\uFF0C\u4E0D\u77E5\u8FD9\u4E9B\u9519\u4E71\u7684\u6587\u4EF6\u7B97\u4E0D\u7B97\u662F\u4E00\u79CD\u4FA7\u9762\u4F53\u73B0\u3002"
+    msgAudio: {fileID: 0}
+  - msg: "\u65E0\u8BBA\u5982\u4F55\uFF0C\u6709\u603B\u6BD4\u6CA1\u6709\u597D\u3002\u8FD9\u4E9B\u8D44\u6599\u867D\u7136\u6DF7\u4E71\uFF0C\u4F46\u5374\u5F88\u8BE6\u5C3D\u5730\u8BB0\u8F7D\u4E86\u8FD9\u51E0\u5E74\u826F\u6E1A\u6587\u5316\u5708\u9646\u7EED\u53D1\u6398\u51FA\u6765\u7684\u6587\u7269\u548C\u7EB9\u9970\uFF0C\u6216\u8BB8\u4F1A\u6709\u7528\u3002"
+    msgAudio: {fileID: 0}
+  - msg: "\u770B\u7740\u770B\u7740\uFF0C\u4E0D\u77E5\u4E0D\u89C9\u5C31\u8FC7\u53BB\u4E86\u4E00\u5C0F\u65F6\u3002\u6211\u7684\u76EE\u5149\u505C\u7559\u5728\u4E86\u4E00\u4E2A\u719F\u6089\u7684\u8BCD\u6C47\u4E0A\u2014\u2014\u9E1F\u7FBD\u7EB9\u3002\u8FD9\u662F\u6F9C\u6B63\u975E\u521A\u521A\u731C\u6D4B\u8FC7\u7684\u53EF\u80FD\u6027\u3002\n"
+    msgAudio: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: e7bf354f-e8be-47d1-9dd3-152176041359
+        Connections:
+        - node_guid: 3117a296-8483-44e7-9efd-4d5e0bfb9978
+          port_guid: 8703da03-cdf5-4a72-93dc-c9187d5b71aa
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 50f1c196-e2ad-4a9e-aef0-06a1b415d781
+        Connections:
+        - node_guid: 3e2c3ea4-77e2-42fa-bc60-6dac54b5089c
+          port_guid: e5dd0d04-0862-4bfa-9fe7-5c8ae72626a5
+--- !u!114 &-936423379941358614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa59f98605fbb014ea4e997ad912d6ed, type: 3}
+  m_Name: Node_Soude Stop
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 171928ce-d55b-42af-ae67-750a914608ca
+  editor_ActiveNode: 0
+  position: {x: 2235, y: 338}
+  soundType: 3
+  soundName: sf-typing
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: b23594ee-1f1d-4169-b0bc-90d91d4dbef3
+        Connections:
+        - node_guid: 3ec18503-3808-4efb-b886-344aa154bd8c
+          port_guid: 0609afb6-d906-45ca-9a30-fb9b6f4846a5
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: b76c4262-9177-4988-8465-ed3c65a77542
+        Connections:
+        - node_guid: 3431456c-c925-440d-96d0-a7232250fe69
+          port_guid: 82c6e87b-1ea1-4189-addd-e76c086fea0f
+--- !u!114 &-493847589789522147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: ff258d50-d89d-47a3-b939-5a2a98199bd7
+  editor_ActiveNode: 0
+  position: {x: -86.00002, y: 753}
+  msg: "\u70B9\u4EC0\u4E48\u5916\u5356\u5462\uFF1F"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 6863de0e-4dc0-4df7-859d-f87296251cb6
+        Connections:
+        - node_guid: e9b70484-c4c4-4b64-8667-66388ac5ab3f
+          port_guid: 0fe89396-9e80-476d-b2a5-c743ce712f9e
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 891a12d5-625a-467e-af27-386e23683ec3
+        Connections:
+        - node_guid: 2f5d78dc-b3bb-4e39-97e8-7efc0af1afb3
+          port_guid: cb1a6bef-2d4b-45d3-9c30-39c1325fe2e0
+--- !u!114 &-407955203418346215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 8f31ca95-a45f-4c73-ae30-9d5efd4237c0
+  editor_ActiveNode: 0
+  position: {x: 1655, y: 877}
+  msg: "\u8FD9\u662F\u2026\u2026\u524D\u4EFB\u9986\u957F\u7559\u4E0B\u7684\uFF1F"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 253123aa-f6ab-43f1-915c-63d7ee9a2d70
+        Connections:
+        - node_guid: 931e862c-e3df-40c0-8235-6d54d773e0a8
+          port_guid: 0cd55f77-12bd-4e7a-afb0-80fc1d4337f1
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 9aa2f833-4059-46c4-9d64-89c18837ab74
+        Connections:
+        - node_guid: 7ea9bbe1-8826-4c4d-a65c-062f0236f764
+          port_guid: b1a6aaa0-49ac-4586-9be8-55744497fb18
+--- !u!114 &-266525724314465732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: b6a8ecb6-9f39-4f17-ab6f-a58b38ccc156
+  editor_ActiveNode: 0
+  position: {x: 1208.8151, y: 429}
+  msg: "\u8BDD\u867D\u5982\u6B64\uFF0C\u770B\u7740\u8FD8\u662F\u4E0D\u592A\u50CF\u554A\u3002"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: d7800886-10ae-4a88-b22b-ac52103121c5
+        Connections:
+        - node_guid: 3e2c3ea4-77e2-42fa-bc60-6dac54b5089c
+          port_guid: aace3c56-11b6-4cba-a13e-5fb3497d29a2
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 129d2d66-e237-401a-bcb0-723094081085
+        Connections:
+        - node_guid: b84fa5a6-3001-43d5-ba99-e02560029507
+          port_guid: 87d9a277-7c87-44dc-a25a-e543429e81f5
+--- !u!114 &-57006114639464556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b15823ee6aa90b4c931675f8df29c3e, type: 3}
+  m_Name: Node_Anima Show
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: f6627f24-6f8b-4c70-abd8-b3ed46c181aa
+  editor_ActiveNode: 0
+  position: {x: 3198, y: 678}
+  animaType: 1
+  animaName: ani-010301
+  autoDestory: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 0afa885c-3b84-4a80-b2dc-2138b75995ac
+        Connections:
+        - node_guid: a17db0b5-6eca-4950-913b-049f2dbaf045
+          port_guid: b36fdcf2-b834-43e1-9aeb-dccc6aa89409
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 0a7e0e58-8a79-4ddf-a7d0-041496ec7042
+        Connections:
+        - node_guid: 55c6dd76-fffa-4c46-8a27-ebed05d47f75
+          port_guid: a3d5e5d8-a562-4fd4-9f13-c31c221aac09
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ea8399ac1f879f4584159200f1e042c, type: 3}
+  m_Name: 103
+  m_EditorClassIdentifier: 
+  StartingNode: {fileID: 6706201802870939460}
+  Nodes:
+  - {fileID: 6706201802870939460}
+  - {fileID: -8856880476895257625}
+  - {fileID: 6162225268268205210}
+  - {fileID: 5854184038003123422}
+  - {fileID: -493847589789522147}
+  - {fileID: -2269904055606469694}
+  - {fileID: -5301116762308633649}
+  - {fileID: 7479106222300250843}
+  - {fileID: 1872858186494733876}
+  - {fileID: -1009653342042075824}
+  - {fileID: -7872312588204861061}
+  - {fileID: -266525724314465732}
+  - {fileID: -4622409456048755537}
+  - {fileID: -8785059145767178668}
+  - {fileID: 7108216960081071837}
+  - {fileID: -3277773380755853205}
+  - {fileID: -7176492148131623587}
+  - {fileID: 6438590410122060575}
+  - {fileID: -407955203418346215}
+  - {fileID: 2069582178936876855}
+  - {fileID: -3553434038136023969}
+  - {fileID: 8393291032383401133}
+  - {fileID: -1863984635592965550}
+  - {fileID: -6384325275396235406}
+  - {fileID: 7174057627456098567}
+  - {fileID: -2826943250019860815}
+  - {fileID: -936423379941358614}
+  - {fileID: 1576109778165326914}
+  - {fileID: 6399522872789327738}
+  - {fileID: -1625064636974916795}
+  - {fileID: 6580683113619711184}
+  - {fileID: 8413033147262484635}
+  - {fileID: 3451215406632815735}
+  - {fileID: -6450420362038467038}
+  - {fileID: 3231840239754834624}
+  - {fileID: 5581554498291195490}
+  - {fileID: -4633748509075586558}
+  - {fileID: -6855754992936658971}
+  - {fileID: 110242286971414574}
+  - {fileID: -7137198223928807986}
+  - {fileID: -57006114639464556}
+  - {fileID: -5769871916932554149}
+  - {fileID: 4861430618986045174}
+  - {fileID: -2593438943599311053}
+  - {fileID: 2490325806321870392}
+  - {fileID: 2794114090848326400}
+  - {fileID: 3468231782028536228}
+  - {fileID: 6681359446105112093}
+  - {fileID: 7600990979976593919}
+  - {fileID: -9083400245248870891}
+  - {fileID: -2829321075039229487}
+  BlackboardProperties: []
+  graphAssets: {fileID: 11400000, guid: 74e60f58b7b51d345bbe2941ef2a8598, type: 2}
+--- !u!114 &110242286971414574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: ff7c35bc-c3a1-4f30-b96a-1ea6667f4f05
+  editor_ActiveNode: 0
+  position: {x: 2825, y: 687}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 8084c151-e5eb-4be5-8171-4120ed703dce
+        Connections:
+        - node_guid: f33ec029-4e19-41f9-8425-e538ad5d9565
+          port_guid: 5bd1f1b2-54ff-425e-a9d4-02f74aa30c41
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: f1fc26b5-3c1c-4397-be4b-e899173ce5c5
+        Connections:
+        - node_guid: a17db0b5-6eca-4950-913b-049f2dbaf045
+          port_guid: f7d0691c-8c3b-415f-ae43-085bb9269c2c
+--- !u!114 &1576109778165326914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae19ad9f5d3c2904182897835ecba327, type: 3}
+  m_Name: Node_Sound Play
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 3431456c-c925-440d-96d0-a7232250fe69
+  editor_ActiveNode: 0
+  position: {x: 2235, y: 509}
+  soundType: 3
+  soundName: sf-newmsg
+  isLoop: 0
+  waitTime: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 82c6e87b-1ea1-4189-addd-e76c086fea0f
+        Connections:
+        - node_guid: 171928ce-d55b-42af-ae67-750a914608ca
+          port_guid: b76c4262-9177-4988-8465-ed3c65a77542
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 07896a0d-94ea-4162-9b71-7e9e6c21c5c9
+        Connections:
+        - node_guid: 8b74e2f8-658b-4e7e-b812-497a46c13ec9
+          port_guid: 94f0b641-2006-40b2-9c0b-0a5010e86b3c
+--- !u!114 &1872858186494733876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a20baa31b6f6384eb4d1c45354bd7fa, type: 3}
+  m_Name: Node_Interact
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 3117a296-8483-44e7-9efd-4d5e0bfb9978
+  editor_ActiveNode: 0
+  position: {x: 848.97003, y: 308.00003}
+  interactName: hd-010301
+  isAutoDestory: 1
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 2f9d3f4e-0882-4e68-9371-bac410073d63
+        Connections:
+        - node_guid: 6b2d037e-bd1c-41e4-bd89-ca0c5ca0f11c
+          port_guid: 1b7fdbbf-6c85-4193-9ad9-875c8924befb
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 8703da03-cdf5-4a72-93dc-c9187d5b71aa
+        Connections:
+        - node_guid: b1e02749-83d3-4023-ade2-5397e486c643
+          port_guid: e7bf354f-e8be-47d1-9dd3-152176041359
+--- !u!114 &2069582178936876855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 7ea9bbe1-8826-4c4d-a65c-062f0236f764
+  editor_ActiveNode: 0
+  position: {x: 1655, y: 1235.0001}
+  msg: "\u201C\u9752\u9752\u5B50\u887F\uFF0C\u60A0\u60A0\u6211\u5FC3\uFF0C\u6211\u6709\u5609\u5BBE\uFF0C\u9F13\u745F\u5439\u7B19\u3002\u773C\u4E2D\u6218\u56FD\u6210\u4E89\u9E7F\uFF0C\u6D77\u5185\u4EBA\u624D\u5B70\u5367\u9F99\uFF1F\u4ECA\u6211\u9986\u2026\u2026\u201D"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: b1a6aaa0-49ac-4586-9be8-55744497fb18
+        Connections:
+        - node_guid: 8f31ca95-a45f-4c73-ae30-9d5efd4237c0
+          port_guid: 9aa2f833-4059-46c4-9d64-89c18837ab74
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 7e2546c4-1031-4f99-8906-ba0485fbc333
+        Connections:
+        - node_guid: 769ff32a-5781-4ec8-8fa1-36d62b0edf50
+          port_guid: adbd2cc3-0d25-49d6-a0ca-194a94e36d68
+--- !u!114 &2490325806321870392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 54d840dd-8008-4bd6-8257-67014ec26ed6
+  editor_ActiveNode: 0
+  position: {x: 3477.9507, y: 923}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 579d892b-28eb-4eaf-b730-9b4672af51e5
+        Connections:
+        - node_guid: 0d1bc352-92cf-46e6-ba41-f09892f008c9
+          port_guid: 6e0e303d-2bc6-4a79-890c-aa3c8d55db40
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 79135f3f-527f-4527-9180-e900af5c02c6
+        Connections:
+        - node_guid: 8c7cd837-fe3f-4c07-8c01-ab251ae31896
+          port_guid: 22240b1d-b5f8-418b-989f-75c0e215f3f1
+--- !u!114 &2794114090848326400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b14dd6d34a4454d813b53a66521a07, type: 3}
+  m_Name: Node_Anima Hide
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 8c7cd837-fe3f-4c07-8c01-ab251ae31896
+  editor_ActiveNode: 0
+  position: {x: 3836.0005, y: 952.00006}
+  animaType: 1
+  animaName: ani-010302
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 22240b1d-b5f8-418b-989f-75c0e215f3f1
+        Connections:
+        - node_guid: 54d840dd-8008-4bd6-8257-67014ec26ed6
+          port_guid: 79135f3f-527f-4527-9180-e900af5c02c6
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 0b2d01a4-5590-44ba-b3e9-f8b646226efe
+        Connections:
+        - node_guid: a046c9fd-5176-45e5-8d0d-ce599597a7c8
+          port_guid: 12cf5320-04f1-4f02-9db8-650df9f3c3bb
+--- !u!114 &3231840239754834624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8478cc79f55c1fa4f93e3d85198f469a, type: 3}
+  m_Name: Node_Say Other
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 88b655dc-eff7-4090-ba3e-08401dfeea72
+  editor_ActiveNode: 0
+  position: {x: 2540, y: 884}
+  msg: "\u4F60\u597D\uFF0C\u662F\u4F60\u70B9\u7684\u5916\u5356\u5417\uFF1F"
+  msgAudio: {fileID: 0}
+  roleName: "\u5916\u5356\u5C0F\u54E5"
+  showIcon: 0
+  spName: 
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: fd25f630-4fb0-469a-94d1-1089f02efb8b
+        Connections:
+        - node_guid: 8409071c-3f1a-4eb5-9a7d-97eaed9c42c1
+          port_guid: 1fc84142-28ac-4ce5-9010-494e04c7043d
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: a8a112b5-c8d2-49d4-bfff-024b12bf0227
+        Connections:
+        - node_guid: b80cbaad-7929-4aa9-a6ba-e8a38becac77
+          port_guid: 2f96cdf6-4462-4d50-ac5f-414b7b8c6836
+--- !u!114 &3451215406632815735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 7cdda208-5dc9-4e2a-8508-f01e3ad655a0
+  editor_ActiveNode: 0
+  position: {x: 2540, y: 388}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 84dc8bda-3484-44f3-8319-26911b48934d
+        Connections:
+        - node_guid: 68fd9eb0-a21e-4b8d-9bec-3341082759c9
+          port_guid: 16dd0cca-0662-499e-ad77-1c23a94aa27f
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: a7d11c14-3422-425d-affb-d8d5a5b6532a
+        Connections:
+        - node_guid: 8409071c-3f1a-4eb5-9a7d-97eaed9c42c1
+          port_guid: 882f06fd-558d-4bdf-b1c1-08e96bf3eb01
+--- !u!114 &3468231782028536228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b15823ee6aa90b4c931675f8df29c3e, type: 3}
+  m_Name: Node_Anima Show
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 62cf8c96-d977-434b-beb3-f9f88557bedd
+  editor_ActiveNode: 0
+  position: {x: 3184.8008, y: 1129.5002}
+  animaType: 0
+  animaName: None
+  autoDestory: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: e25b21c8-5ca9-45ab-8c5e-bc31f04d400f
+        Connections:
+        - node_guid: a17db0b5-6eca-4950-913b-049f2dbaf045
+          port_guid: 6603bf78-9dc8-4261-8748-35cdedca763c
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 6d27f33b-4176-4d0e-a237-eadc4fc1645b
+        Connections:
+        - node_guid: d614958c-3dd3-4086-97a1-24a9deee685f
+          port_guid: c986d93d-2db6-427b-b74d-68a56afb6c42
+--- !u!114 &4861430618986045174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b14dd6d34a4454d813b53a66521a07, type: 3}
+  m_Name: Node_Anima Hide
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 323e47b3-b139-4b60-94a2-6b4e58c08e71
+  editor_ActiveNode: 0
+  position: {x: 3836, y: 710}
+  animaType: 1
+  animaName: ani-010301
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 1dcd994b-8b98-4384-af6b-872d34af8f41
+        Connections:
+        - node_guid: 55c6dd76-fffa-4c46-8a27-ebed05d47f75
+          port_guid: af5bf862-7678-4d4b-9f0c-e29b335fbec9
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: f27895e7-4c99-4dd7-89d7-6c98d1f5dd99
+        Connections:
+        - node_guid: a046c9fd-5176-45e5-8d0d-ce599597a7c8
+          port_guid: 12cf5320-04f1-4f02-9db8-650df9f3c3bb
+--- !u!114 &5581554498291195490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: b80cbaad-7929-4aa9-a6ba-e8a38becac77
+  editor_ActiveNode: 0
+  position: {x: 2540, y: 1136}
+  msg: "\u662F\u7684\u662F\u7684\uFF0C\u653E\u5728\u8FD9\u91CC\u5C31\u597D\u4E86\u3002"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 2f96cdf6-4462-4d50-ac5f-414b7b8c6836
+        Connections:
+        - node_guid: 88b655dc-eff7-4090-ba3e-08401dfeea72
+          port_guid: a8a112b5-c8d2-49d4-bfff-024b12bf0227
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 8f7d63f2-11bb-465f-a664-cd154af10fec
+        Connections:
+        - node_guid: f17cd0d2-ad7d-4c53-b5d1-a27e529807ff
+          port_guid: dd5f6b3d-b68b-49ed-aa81-a0e363374fed
+        - node_guid: f17cd0d2-ad7d-4c53-b5d1-a27e529807ff
+          port_guid: dd5f6b3d-b68b-49ed-aa81-a0e363374fed
+--- !u!114 &5854184038003123422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: e9b70484-c4c4-4b64-8667-66388ac5ab3f
+  editor_ActiveNode: 0
+  position: {x: -98.63024, y: 570.62427}
+  Datas:
+  - msg: "\u6F9C\u6B63\u975E\u548C\u7EAA\u98CE\u8D70\u540E\uFF0C\u529E\u516C\u5BA4\u91CD\u65B0\u6062\u590D\u4E86\u5B81\u9759\u3002"
+    msgAudio: {fileID: 0}
+  - msg: "\u88AB\u6361\u56DE\u6765\u7684\u77F3\u5934\u4F9D\u65E7\u9759\u9759\u8EBA\u5728\u89D2\u843D\u91CC\uFF0C\u4E4D\u4E00\u770B\u5C31\u50CF\u6CB3\u8FB9\u968F\u5904\u53EF\u89C1\u7684\u77F3\u5934\u3002"
+    msgAudio: {fileID: 0}
+  - msg: "\u826F\u6E1A\uFF0C\u826F\u4E3A\u597D\uFF0C\u6E1A\u610F\u4E3A\u6C34\u4E2D\u5C0F\u6D32\u3002\u4E00\u5EA7\u6CBF\u6C34\u800C\u5EFA\u7684\u57CE\u5E02\uFF0C\u6709\u8FD9\u6837\u7684\u77F3\u5934\u5E76\u4E0D\u7A00\u5947\uFF0C\u4F46\u504F\u504F\u4E0A\u9762\u591A\u4E86\u8FD9\u4E9B\u795E\u79D8\u7684\u7EB9\u8DEF"
+    msgAudio: {fileID: 0}
+  - msg: "\u6F9C\u6B63\u975E\u8BF4\u6BCF\u4E00\u7C92\u6CE5\u6C99\u90FD\u6709\u81EA\u5DF1\u7684\u6545\u4E8B\uFF0C\u90A3\u4E48\u8FD9\u4E9B\u7EB9\u8DEF\u53C8\u4EE3\u8868\u4E86\u4EC0\u4E48\u5462\uFF1F"
+    msgAudio: {fileID: 0}
+  - msg: "\u4F1A\u662F\u9E1F\u5417\uFF1F\u6216\u8005\u662F\u8FDC\u53E4\u65F6\u4EE3\u67D0\u79CD\u66F4\u4E3A\u795E\u79D8\u7684\u4FE1\u4EF0\uFF1F"
+    msgAudio: {fileID: 0}
+  - msg: "\u53EA\u53EF\u60DC\u5BF9\u826F\u6E1A\u6587\u5316\u7684\u4E86\u89E3\u4E0D\u591F\u591A\uFF0C\u60F3\u8981\u63ED\u5F00\u8C1C\u56E2\uFF0C\u6050\u6015\u53EA\u6709\u7B49\u5230\u7EAA\u98CE\u548C\u6F9C\u6B63\u975E\u56DE\u6765\u4E86\u3002"
+    msgAudio: {fileID: 0}
+  - msg: "\u8F6C\u773C\u5230\u4E86\u6B63\u5348\uFF0C\u5FD9\u4E86\u4E00\u4E0A\u5348\u771F\u662F\u6709\u70B9\u997F\u4E86\uFF0C\u8FD8\u662F\u5148\u70B9\u4EFD\u5916\u5356\u7136\u540E\u5728\u7B49\u5F85\u7684\u65F6\u95F4\u91CC\u591A\u627E\u70B9\u8D44\u6599\u5B66\u4E60\u4E00\u4E0B\u5427\u3002"
+    msgAudio: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: dd818771-a1f5-40b6-8f46-c1205ff0a441
+        Connections:
+        - node_guid: 4500f429-823f-4dd2-bfba-309770b2b2e0
+          port_guid: 1d452d15-9d76-4d4b-b50c-c669fd6f5e99
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 0fe89396-9e80-476d-b2a5-c743ce712f9e
+        Connections:
+        - node_guid: ff258d50-d89d-47a3-b939-5a2a98199bd7
+          port_guid: 6863de0e-4dc0-4df7-859d-f87296251cb6
+--- !u!114 &6162225268268205210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae19ad9f5d3c2904182897835ecba327, type: 3}
+  m_Name: Node_Sound Play
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 4500f429-823f-4dd2-bfba-309770b2b2e0
+  editor_ActiveNode: 0
+  position: {x: 93.00001, y: 339}
+  soundType: 1
+  soundName: bgm-offwork
+  isLoop: 1
+  waitTime: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 4b09d427-be0a-4cb7-ac67-f349e88bf25e
+        Connections:
+        - node_guid: 587c08d6-6c03-47c3-b5e2-0c89fdee145a
+          port_guid: a28af843-55c2-47ed-b090-3f04b312c11f
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 1d452d15-9d76-4d4b-b50c-c669fd6f5e99
+        Connections:
+        - node_guid: e9b70484-c4c4-4b64-8667-66388ac5ab3f
+          port_guid: dd818771-a1f5-40b6-8f46-c1205ff0a441
+--- !u!114 &6399522872789327738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 8b74e2f8-658b-4e7e-b812-497a46c13ec9
+  editor_ActiveNode: 0
+  position: {x: 2244, y: 726}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 94f0b641-2006-40b2-9c0b-0a5010e86b3c
+        Connections:
+        - node_guid: 3431456c-c925-440d-96d0-a7232250fe69
+          port_guid: 07896a0d-94ea-4162-9b71-7e9e6c21c5c9
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 4a4c4bd8-0a6b-42de-a92f-b9ef70afa6f9
+        Connections:
+        - node_guid: bf88c36f-8c61-4f42-9594-06a74312acfd
+          port_guid: 2328a461-daf1-4517-9513-3e527139dcf6
+--- !u!114 &6438590410122060575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36451786cf56c094eafbf5f99cf4dcde, type: 3}
+  m_Name: Node_Say Me
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 931e862c-e3df-40c0-8235-6d54d773e0a8
+  editor_ActiveNode: 0
+  position: {x: 1655, y: 478.00003}
+  msg: "\u8FD9\u662F\u2026\u2026\u524D\u4EFB\u9986\u957F\u7559\u4E0B\u7684\uFF1F"
+  msgAudio: {fileID: 0}
+  targetRoleName: None
+  enterTalkEmoji: None
+  talkEmoji: None
+  exitTalkEmoji: None
+  talkEndEmoji: None
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 31dc1aee-d11f-4516-82cd-2ce04bc127cf
+        Connections:
+        - node_guid: ba0ebe89-34bc-4a2d-963a-4bb999fb9cc0
+          port_guid: 73c41c3d-9a97-4207-b3d7-488963edbbac
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 0cd55f77-12bd-4e7a-afb0-80fc1d4337f1
+        Connections:
+        - node_guid: 8f31ca95-a45f-4c73-ae30-9d5efd4237c0
+          port_guid: 253123aa-f6ab-43f1-915c-63d7ee9a2d70
+--- !u!114 &6580683113619711184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae19ad9f5d3c2904182897835ecba327, type: 3}
+  m_Name: Node_Sound Play
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: fa3fdf03-26de-4e7f-9b2e-f17de77065f1
+  editor_ActiveNode: 0
+  position: {x: 2256, y: 1320}
+  soundType: 1
+  soundName: bgm-offwork
+  isLoop: 1
+  waitTime: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 3f4682e6-73d9-4b83-828b-3fa614149831
+        Connections:
+        - node_guid: bf88c36f-8c61-4f42-9594-06a74312acfd
+          port_guid: 5d98494c-eb26-4174-8f7d-5fb65ebaf41c
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: c059a643-7c53-407c-86de-ef1d8ac95a70
+        Connections:
+        - node_guid: 68fd9eb0-a21e-4b8d-9bec-3341082759c9
+          port_guid: 144131cf-364c-4480-a148-7805880d7eeb
+--- !u!114 &6681359446105112093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: d614958c-3dd3-4086-97a1-24a9deee685f
+  editor_ActiveNode: 0
+  position: {x: 3489.0005, y: 1130}
+  Datas: []
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: c986d93d-2db6-427b-b74d-68a56afb6c42
+        Connections:
+        - node_guid: 62cf8c96-d977-434b-beb3-f9f88557bedd
+          port_guid: 6d27f33b-4176-4d0e-a237-eadc4fc1645b
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 411c4c53-1874-4cfa-953c-7722e93d109b
+        Connections:
+        - node_guid: 469d6ab4-7e3a-4f66-bd9e-606aca607ac9
+          port_guid: 69a9acdf-d9dd-435a-8e91-1df41ccb71f0
+--- !u!114 &6706201802870939460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed165b12bb8f4c948932f8ee28821eca, type: 3}
+  m_Name: Start
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  internal_guid: 40b96ff5-1e2c-41aa-9c94-c4bc4b7c4ac9
+  editor_ActiveNode: 0
+  position: {x: -160.43996, y: 154.00002}
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Next
+        Direction: 1
+        CanBeRemoved: 0
+        guid: f20e2ebe-b3e8-4f15-83df-95803595fdb2
+        Connections:
+        - node_guid: 587c08d6-6c03-47c3-b5e2-0c89fdee145a
+          port_guid: d384a62b-e7ba-46ad-8810-3309be74e63b
+--- !u!114 &7108216960081071837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9a81f5ed286d4e498b0fc04d1254a46, type: 3}
+  m_Name: Node_Say Aside
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: c8133a75-3fa5-46c9-9d38-43724e3729b5
+  editor_ActiveNode: 0
+  position: {x: 1181, y: 1414.5}
+  Datas:
+  - msg: "\u73AF\u987E\u56DB\u5468\uFF0C\u8001\u65E7\u7684\u684C\u5B50\u8FB9\u89D2\u8FD8\u6B8B\u7559\u7740\u672A\u64E6\u5E72\u51C0\u7684\u7070\u5C18\uFF0C\u684C\u5B50\u4E0B\u6709\u51E0\u4E2A\u5E26\u9501\u7684\u62BD\u5C49\u3002"
+    msgAudio: {fileID: 0}
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 7d392e0c-a7d5-4454-89dd-2702d31bad69
+        Connections:
+        - node_guid: 8982f1ec-c989-4c01-b59f-484c697e52c5
+          port_guid: efdda7ed-fabc-41a2-9665-e839ffcca6a8
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 270af349-65f9-4c1f-a8e2-b94e2f863bb1
+        Connections:
+        - node_guid: a7815162-2ef6-488e-b771-d43379b3b7d4
+          port_guid: f03039ee-4153-4c70-8c35-0cbf68fa640b
+--- !u!114 &7174057627456098567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae19ad9f5d3c2904182897835ecba327, type: 3}
+  m_Name: Node_Sound Play
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 01c343d5-22a8-4cd5-b76c-a5f432a6c05b
+  editor_ActiveNode: 0
+  position: {x: 1962, y: 1320}
+  soundType: 3
+  soundName: sf-typing
+  isLoop: 0
+  waitTime: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 5871c737-4682-4d2e-8a72-edba674e0c67
+        Connections:
+        - node_guid: 366bd666-8f82-41ce-83d3-bd42786d2b0f
+          port_guid: 8bec408c-ebcb-4893-9343-80aa65b09b53
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 3387bccc-9c43-47ae-ab40-197cdbe6b12f
+        Connections:
+        - node_guid: 3ec18503-3808-4efb-b886-344aa154bd8c
+          port_guid: 6ba90fa7-184d-42ac-81c9-95b0f26278dc
+--- !u!114 &7479106222300250843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b14dd6d34a4454d813b53a66521a07, type: 3}
+  m_Name: Node_Anima Hide
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 6b2d037e-bd1c-41e4-bd89-ca0c5ca0f11c
+  editor_ActiveNode: 0
+  position: {x: 860.81757, y: 91.00001}
+  animaType: 1
+  animaName: ani-010304
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: a47b8c5a-11cb-4779-b479-810aa6fc5035
+        Connections:
+        - node_guid: aa297d5e-7e7b-41ff-a646-7fd6af69005d
+          port_guid: 25cdc010-2473-43d1-98f8-bb6b4b88e093
+        - node_guid: aa297d5e-7e7b-41ff-a646-7fd6af69005d
+          port_guid: 25cdc010-2473-43d1-98f8-bb6b4b88e093
+        - node_guid: aa297d5e-7e7b-41ff-a646-7fd6af69005d
+          port_guid: dcd4efa9-b75b-4235-81be-dfe8fdb22ae7
+        - node_guid: aa297d5e-7e7b-41ff-a646-7fd6af69005d
+          port_guid: 3a179610-8cb4-44e4-91f4-52303e153c1e
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 1b7fdbbf-6c85-4193-9ad9-875c8924befb
+        Connections:
+        - node_guid: 3117a296-8483-44e7-9efd-4d5e0bfb9978
+          port_guid: 2f9d3f4e-0882-4e68-9371-bac410073d63
+--- !u!114 &7600990979976593919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73b14dd6d34a4454d813b53a66521a07, type: 3}
+  m_Name: Node_Anima Hide
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 469d6ab4-7e3a-4f66-bd9e-606aca607ac9
+  editor_ActiveNode: 0
+  position: {x: 3853.3008, y: 1175.5002}
+  animaType: 1
+  animaName: ani-010303
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 69a9acdf-d9dd-435a-8e91-1df41ccb71f0
+        Connections:
+        - node_guid: d614958c-3dd3-4086-97a1-24a9deee685f
+          port_guid: 411c4c53-1874-4cfa-953c-7722e93d109b
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 7ccf606a-e9f3-430c-955f-09454e6f44c0
+        Connections:
+        - node_guid: a046c9fd-5176-45e5-8d0d-ce599597a7c8
+          port_guid: 12cf5320-04f1-4f02-9db8-650df9f3c3bb
+--- !u!114 &8393291032383401133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae19ad9f5d3c2904182897835ecba327, type: 3}
+  m_Name: Node_Sound Play
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 66eeea94-05a4-404a-8dcc-beabc9dd8b88
+  editor_ActiveNode: 0
+  position: {x: 1962, y: 308}
+  soundType: 3
+  soundName: sf-notetaking
+  isLoop: 0
+  waitTime: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 587c91c3-a109-40e6-bc3d-04564364b648
+        Connections:
+        - node_guid: 21f13d78-3f61-4bf7-9a8b-c681a21296a2
+          port_guid: 17686827-a5c5-44bb-a5a8-2c32b30978fb
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 6821cd55-a70b-4668-ae3e-246e986606fb
+        Connections:
+        - node_guid: 53513497-e662-4cf9-8b55-eb1341d345b4
+          port_guid: 13d44376-ee29-486b-a7d2-9e58803eecb5
+--- !u!114 &8413033147262484635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30588af5db46a814f83ef09e79f504de, type: 3}
+  m_Name: Node_BG
+  m_EditorClassIdentifier: 
+  Ports:
+  - id: 0
+  - id: 1
+  internal_guid: 68fd9eb0-a21e-4b8d-9bec-3341082759c9
+  editor_ActiveNode: 0
+  position: {x: 2540, y: 112}
+  spBgName: bg-outdoorday
+  fXType: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Input
+        Direction: 0
+        CanBeRemoved: 0
+        guid: 144131cf-364c-4480-a148-7805880d7eeb
+        Connections:
+        - node_guid: fa3fdf03-26de-4e7f-9b2e-f17de77065f1
+          port_guid: c059a643-7c53-407c-86de-ef1d8ac95a70
+    00000001:
+      type: {class: VisualGraphPort, ns: VisualGraphRuntime, asm: Assembly-CSharp}
+      data:
+        Name: Exit
+        Direction: 1
+        CanBeRemoved: 0
+        guid: 16dd0cca-0662-499e-ad77-1c23a94aa27f
+        Connections:
+        - node_guid: 7cdda208-5dc9-4e2a-8508-f01e3ad655a0
+          port_guid: 84dc8bda-3484-44f3-8319-26911b48934d
