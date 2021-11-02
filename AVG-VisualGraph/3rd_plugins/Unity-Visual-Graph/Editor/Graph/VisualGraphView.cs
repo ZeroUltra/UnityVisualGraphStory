@@ -421,6 +421,7 @@ namespace VisualGraphInEditor
 
             // Set the node capabilites. The default View node can be overriden
             node.capabilities = node.SetCapabilities(node.capabilities);
+            node.style.width = node.default_size.x;
             node.SetPosition(new Rect(graphNode.position, node.default_size));
 
             // Add the needed ports
@@ -430,8 +431,9 @@ namespace VisualGraphInEditor
             }
 
             // If there are custom elements or drawing, let the derived node handle this
+            node.InitNode(graphNode);
             node.DrawNode();
-
+         
             // If the node wants to hide the properties the user must make a View node and set this to false
             if (node.ShowNodeProperties)
             {
@@ -805,6 +807,8 @@ namespace VisualGraphInEditor
             VisualGraphNode graphNode = node.userData as VisualGraphNode;
             Undo.RecordObjects(new UnityEngine.Object[] { graphNode, visualGraph }, "Delete Node");
             visualGraph.RemoveNode(graphNode);
+            EditorUtility.SetDirty(visualGraph);
+            AssetDatabase.SaveAssets();
             Undo.DestroyObjectImmediate(graphNode);
         }
 

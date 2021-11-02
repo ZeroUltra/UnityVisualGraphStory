@@ -8,33 +8,22 @@ namespace LJ.VisualAVG
     [NodePortAggregate(NodePortAggregateAttribute.PortAggregate.Single, NodePortAggregateAttribute.PortAggregate.Single)]
     public class Node_SayRole : Node_Base
     {
-        [TextArea(4, 6)]
         public string msg;
         public AudioClip msgAudio;
 
-        [Label("姓名")]
-        [Dropdown(nameof(listRolesName)), AllowNesting]
-        public string roleName = "";
+        public string roleName;
 
-        [Header("表情")]
-        [Label("进入说话(once)")]
-        [Dropdown(nameof(listRoleEmojis)), AllowNesting]
-        public string enterTalkEmoji = "";
-        [Label("说话表情(loop)")]
-        [Dropdown(nameof(listRoleEmojis)), AllowNesting]
-        public string talkEmoji = "";
+        public string enterTalkEmoji; //进入表情
 
-        [Label("退出说话(once)")]
-        [Dropdown(nameof(listRoleEmojis)), AllowNesting]
-        public string exitTalkEmoji = "";
+        public string talkEmoji;//说话表情
 
-        [Label("说完表情(loop)")]
-        [Dropdown(nameof(listRoleEmojis)), AllowNesting]
-        public string talkEndEmoji = "";
+        public string exitTalkEmoji; //退出表情
+
+        public string talkEndEmoji; //结束后表情
 
         //角色名字
-        private string[] listRolesName { get { return (graph as AVGGraph).graphAssets.RoleNames; } }
+        public string[] listRolesName { get { return (graph as AVGGraph).graphAssets.RoleNames; } }
         //角色表情动画
-        private string[] listRoleEmojis { get { return (graph as AVGGraph).graphAssets.GetRoleAnimas((graph as AVGGraph).graphAssets.GetRolePyName(roleName)); } }
+        public string[] listRoleEmojis { get { return (graph as AVGGraph).graphAssets.GetRoleAnimas((graph as AVGGraph).graphAssets.GetRolePyName(roleName)); } }
     }
 }

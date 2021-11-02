@@ -11,28 +11,19 @@ namespace LJ.VisualAVG
         [TextArea(4, 6)]
         public string msg;
         public AudioClip msgAudio;
-        [Header("作用目标")]
-        [Label("目标姓名")]
-        [Dropdown(nameof(listRolesName)), AllowNesting]
+
         public string targetRoleName = "";
 
-        [Label("进入说话(once)")]
-        [Dropdown(nameof(listRoleEmojis)), AllowNesting]
         public string enterTalkEmoji = "";
 
-        [Label("说话表情(loop)")]
-        [Dropdown(nameof(listRoleEmojis)), AllowNesting]
         public string talkEmoji = "";
 
-        [Label("退出说话(once)")]
-        [Dropdown(nameof(listRoleEmojis)), AllowNesting]
         public string exitTalkEmoji = "";
-        [Label("说完表情(loop)")]
-        [Dropdown(nameof(listRoleEmojis)), AllowNesting]
+
         public string talkEndEmoji = "";
 
         //角色名字
-        private string[] listRolesName
+        public string[] listRolesName
         {
             get
             {
@@ -40,7 +31,7 @@ namespace LJ.VisualAVG
             }
         }
         //角色表情动画
-        private string[] listRoleEmojis { get { return (graph as AVGGraph).graphAssets.GetRoleAnimas((graph as AVGGraph).graphAssets.GetRolePyName(targetRoleName)); } }
+        public string[] listRoleEmojis { get { return (graph as AVGGraph).graphAssets.GetRoleAnimas((graph as AVGGraph).graphAssets.GetRolePyName(targetRoleName)); } }
 
     }
 }

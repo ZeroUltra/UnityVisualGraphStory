@@ -1,6 +1,6 @@
 .VisualGraphNode {
     border-radius: 10;
-    width:250;  /*可以调节Node宽度*/
+   /* width:250;  /*可以调节Node宽度*/
 }
 
 .VisualGraphNodeSelected {

@@ -14,6 +14,5 @@ namespace VisualGraphRuntime
 	[CustomNodeStyle("StartNodeStyle")]
 	public sealed class VisualGraphStartNode : VisualGraphNode
 	{
-	
 	}
 }

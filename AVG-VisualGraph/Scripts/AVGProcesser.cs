@@ -12,7 +12,6 @@ using Spine.Unity;
 /// </summary>
 public class AVGProcesser : MonoBehaviour
 {
-
     //#if UNITY_EDITOR
     public static event System.Action<Node_Base> OnChangeNodeEvent;
     //#endif
@@ -271,7 +270,7 @@ public class AVGProcesser : MonoBehaviour
                 switch (node_bg.fXType)
                 {
                     case AVGHelper.FXType2.None:
-                        imgBgF.color = Color.clear;
+                        imgBgF.color = Color.white;
                         imgBgF.sprite = sp;
                         break;
                     case AVGHelper.FXType2.FadeInOut:
@@ -294,7 +293,7 @@ public class AVGProcesser : MonoBehaviour
             {
                 var node_sayaside = CurrentNode as Node_SayAside;
                 ShowPanel(panel_SayAside);
-                int dataLength = node_sayaside.Datas.Length;
+                int dataLength = node_sayaside.Datas.Count;
                 if (dataLength > 1)
                 {
                     MultiDatasIndex++;

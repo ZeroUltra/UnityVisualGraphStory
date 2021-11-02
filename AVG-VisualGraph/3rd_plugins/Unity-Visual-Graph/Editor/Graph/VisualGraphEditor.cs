@@ -27,7 +27,8 @@ namespace VisualGraphInEditor
         private Vector3 pos;
 
         public static VisualGraphView visualGraphView;
-     
+
+
         /// <summary>
         /// Create a Visual Graph Window to support a VisualGraph object
         /// </summary>
@@ -56,7 +57,7 @@ namespace VisualGraphInEditor
             rootVisualElement.Add(graphView);
 
             // Add Toolbar to Window
-           
+
             graphView.CreateMinimap(this.position.width);
             WaitUpdateView();
             //黑板
@@ -92,9 +93,11 @@ namespace VisualGraphInEditor
             AVGProcesser.OnChangeNodeEvent -= AvgProcesser_OnChangeNodeEvent;
             visualGraphView.OnDisable();
             visualGraphView = null;
+            EditorUtility.SetDirty(this);
+            AssetDatabase.SaveAssets();
         }
 
-        
+
         private void LogPlayModeState(PlayModeStateChange state)
         {
 
@@ -182,6 +185,17 @@ namespace VisualGraphInEditor
             });
             toolbar.Add(btnasset);
 
+            //Button btnTest = new Button();
+            //btnTest.text = "增加10个";
+            //btnTest.RegisterCallback<ClickEvent>((evt) =>
+            //{
+            //    for (int i = 0; i < 20; i++)
+            //    {
+            //        var node = graphView.CreateNode(new Vector2(posX,(i * 60)) , typeof(Node_SayOther));
+            //    }
+            //    posX += 300;
+            //});
+            //toolbar.Add(btnTest);
             //绘制obj区域
             ObjectField assetobj = new ObjectField();
             assetobj.allowSceneObjects = false;
@@ -199,7 +213,7 @@ namespace VisualGraphInEditor
             toolbar.Add(assetobj);
             rootVisualElement.Add(toolbar);
         }
-
+        private float posX = 0;
         /// <summary>
         /// When the GUI changes update the view (this positions the blackboard and minimap)
         /// </summary>

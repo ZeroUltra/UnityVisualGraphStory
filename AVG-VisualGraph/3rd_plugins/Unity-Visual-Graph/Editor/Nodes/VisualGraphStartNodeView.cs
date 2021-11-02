@@ -10,7 +10,7 @@ namespace VisualGraphInEditor
     public sealed class VisualGraphStartNodeView : VisualGraphNodeView
     {
         public override bool ShowNodeProperties => false;
-
+        public override Vector2 default_size => new Vector2(80, 150);
         public override Capabilities SetCapabilities(Capabilities capabilities)
         {
             //capabilities &= ~UnityEditor.Experimental.GraphView.Capabilities.Movable;
